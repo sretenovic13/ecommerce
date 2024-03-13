@@ -7,10 +7,11 @@
     box-sizing: border-box;
 }
 
-// registration
+// registration, signin
 
 #registerBody{
     background: linear-gradient(to right, $primary,$secondary);
+    height: 100vh;
     @include displayFlex();
 
     #register{
@@ -87,13 +88,9 @@
         color: #ffffff;
         font-weight: bold;
     }
-    // #typePasswordX:focus ~ #typeEmailX + .form-label {
-    //     top: 14px;
-    // }
-    // #typeEmailX:focus ~ #typePasswordX + .form-label {
-    //     top: 14px;
-    // }
     .form-outline .form-control .form-control-lg:focus~.form-label {
         transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
     }
 }
+
+
