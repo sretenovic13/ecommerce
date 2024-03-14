@@ -5,7 +5,6 @@ const ordersData = async () => {
     
 
     const data = await response.json()
-    console.log(data);
 
     const arrayOfOrders = data.Results
 
@@ -20,4 +19,16 @@ const ordersData = async () => {
     }
 }
 
-ordersData()
+window.onload = function() {
+    ordersData()
+}
+
+const showOrders = x => {
+    const resultOrder = x.order
+    const resultOrderDetails = x.orderDetails
+
+    let suma = 0
+    let ukupnaSuma = 0
+
+    const ordersDiv = document.getElementById('orders')
+}
