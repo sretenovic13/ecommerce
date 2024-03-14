@@ -7,7 +7,7 @@ const auth = getAuth()
 
 loginBtn.addEventListener('click', e => {
     const email = document.getElementById('email')
-    const password = document.getElementById('password')
+    const password = document.getElementById('pass')
 
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
