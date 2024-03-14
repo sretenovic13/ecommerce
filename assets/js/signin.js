@@ -6,9 +6,9 @@ import app from './config.js'
 const auth = getAuth()
 
 loginBtn.addEventListener('click', e => {
-    const email = document.getElementById('email')
-    const password = document.getElementById('pass')
-
+    const email = document.getElementById('email').value
+    const password = document.getElementById('pass').value
+    console.log(email);
     signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             const user = userCredential.user
