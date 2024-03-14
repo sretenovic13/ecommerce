@@ -31,4 +31,23 @@ const showOrders = x => {
     let ukupnaSuma = 0
 
     const ordersDiv = document.getElementById('orders')
-}
+
+    const parseJsonData = jsonString => {
+        return new Date(parseInt(jsonString.replace('/Date(','')))
+    }
+    
+    let datum = parseJsonData(resultOrder.orderDate)
+
+    let konacanDatum = datum.toJSON(resultOrder.orderDate)
+    console.log(konacanDatum.slice(0,10));
+
+    ordersDiv.innerHTML = `
+        <div class="col-sm-12 center-block" id="${resultOrder.id}">
+            <div class="thumbnail col-md-12 box">
+                <p styles="font-size: 20px">
+                    OrderID ${resultOrder.id}<br/><br/>
+                </p>
+            </div>
+        </div>
+    `
+}  
