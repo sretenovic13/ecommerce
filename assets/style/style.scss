@@ -92,5 +92,17 @@
         transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
     }
 }
+#messageError {
+    color: red;
+}
+nav {
+    background: #3b71ca;
 
+    .nav-link {
+        color: #fff !important;
+    }
+    .active {
+        color: #211919 !important;
+    }
+}
 

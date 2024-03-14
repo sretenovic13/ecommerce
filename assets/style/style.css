@@ -86,4 +86,18 @@
 }
 #registerBody .form-outline .form-control .form-control-lg:focus ~ .form-label {
   transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
+}
+
+#messageError {
+  color: red;
+}
+
+nav {
+  background: #3b71ca;
+}
+nav .nav-link {
+  color: #fff !important;
+}
+nav .active {
+  color: #211919 !important;
 }/*# sourceMappingURL=style.css.map */
