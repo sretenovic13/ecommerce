@@ -52,13 +52,13 @@ const showOrders = x => {
                     ukupnaSuma += suma 
                     return `
                         <p style="font-size: 15px">
-                            ProductId: ${x.productId}<br/><br/>
+                            ProductId: ${y.productId}<br/><br/>
                         </p>
                         <p style="font-size: 15px">
-                            Quantity: ${x.quantity}<br/><br/>
+                            Quantity: ${y.quantity}<br/><br/>
                         </p>
                         <p style="font-size: 15px">
-                            UnitPrice: ${x.unitPrice}<br/><br/>
+                            UnitPrice: ${y.unitPrice}<br/><br/>
                         </p>
                         <p style="font-size: 15px">
                             Date: ${konacanDatum.slice(0,10)}<hr/>
