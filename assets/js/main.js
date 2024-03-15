@@ -52,7 +52,7 @@ const showOrders = x => {
                     ukupnaSuma += suma 
                     return `
                         <p class='price'>
-                            Product Id: ${y.productId}<br/><br/>
+                            Product ID: ${y.productId}<br/><br/>
                         </p>
                         <p class='price'>
                             Quantity: ${y.quantity}<br/><br/>
@@ -68,7 +68,7 @@ const showOrders = x => {
                         </p class='price'>
                     `
                 }).join('')}
-                <p style="font-size: 15px">
+                <p class="total-price">
                      Total amount: ${ukupnaSuma.toFixed(2)}<br/>
                 </p>
             </div>

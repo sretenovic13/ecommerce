@@ -92,14 +92,117 @@
   color: red;
 }
 
+#registerBody1 {
+  background: linear-gradient(to right, #6911cb, #2675fc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#registerBody1 #register {
+  background: #332d2d;
+}
+#registerBody1 .form-outline .form-control {
+  min-height: auto;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.2s linear;
+}
+#registerBody1 .card {
+  background: #332d2d;
+}
+#registerBody1 .form-outline {
+  position: relative;
+  width: 100%;
+}
+#registerBody1 .form-outline .form-control ~ .form-label {
+  position: absolute;
+  top: 0;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  left: 0.75rem;
+  padding-top: 0.37rem;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transition: all 0.2s ease-out;
+  color: #fbfbfb;
+  margin-bottom: 0;
+}
+#registerBody1 .form-outline .form-control.form-control-lg ~ .form-label {
+  padding-top: 0.7rem;
+}
+#registerBody1 .form-outline .form-control.form-control-lg {
+  font-size: 1rem;
+  line-height: 2.15;
+}
+#registerBody1 .form-control {
+  min-height: auto;
+  padding: 4.5px 12px 3.68px 12px;
+  transition: all 0.1s linear;
+  box-shadow: none;
+}
+#registerBody1 .form-control:focus {
+  box-shadow: none;
+  transition: all 0.1s linear;
+  border-color: #3b71ca;
+  box-shadow: inset 0px 0px 0px 1px #3b71ca;
+}
+#registerBody1 .form-control:focus {
+  color: var(--mdb-surface-color);
+  background-color: var(--mdb-body-bg);
+  border-color: #3b71ca;
+  outline: 0;
+  box-shadow: var(--mdb-box-shadow-inset), 0 0 0 0.25rem rgba(59, 113, 202, 0.25);
+}
+#registerBody1 .form-outline .form-control:focus {
+  box-shadow: none !important;
+}
+#registerBody1 INPUT:not(:-webkit-autofill), #registerBody1 SELECT:not(:-webkit-autofill), #registerBody1 TEXTAREA:not(:-webkit-autofill) {
+  animation-name: onautofillcancel;
+}
+#registerBody1 .form-outline input:focus-within ~ .form-label {
+  top: -20px;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: bold;
+}
+#registerBody1 .form-outline .form-control .form-control-lg:focus ~ .form-label {
+  transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
+}
+
+#messageError {
+  color: red;
+}
+
+.head {
+  color: #e3642a;
+}
+
 nav {
-  background: #3b71ca;
+  background: linear-gradient(to right, #6911cb, #2675fc);
 }
 nav .nav-link {
   color: #fff !important;
 }
 nav .active {
   color: #211919 !important;
+}
+
+.navbar-nav {
+  gap: 11px;
+}
+
+.nav-link {
+  font-size: 19px;
+}
+
+#orders {
+  background: linear-gradient(to right, #6911cb, #2675fc);
 }
 
 .center-block {
@@ -115,7 +218,7 @@ nav .active {
   padding: 30px;
   padding-left: 80px;
   padding-right: 80px;
-  background-color: #f8f9fa;
+  background-color: #332d2d;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   color: #ffffff;
@@ -123,14 +226,16 @@ nav .active {
 
 p.idOrder {
   font-size: 30px;
-  color: #007bff;
+  color: #e3642a;
   font-weight: bold;
+  text-align: center;
 }
 
 p.price {
   font-size: 20px;
-  color: #000;
+  color: #ffffff;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 .thumbnail.col-md-12.box p.price {
@@ -140,6 +245,13 @@ p.price {
 }
 
 .thumbnail.col-md-12.box hr {
-  border-top: 4px solid #007bff;
-  margin: 10px 0; /* Vertikalni razmak */
+  border-top: 4px solid #e3642a;
+  margin: 10px 0;
+}
+
+p.total-price {
+  font-size: 25px;
+  color: #009e3e;
+  margin-bottom: 5px;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
