@@ -44,30 +44,30 @@ const showOrders = x => {
     ordersDiv.innerHTML = `
         <div class="col-sm-12 center-block" id="${resultOrder.id}">
             <div class="thumbnail col-md-12 box">
-                <p styles="font-size: 20px">
-                    OrderID ${resultOrder.id}<br/><br/>
+                <p class='idOrder'>
+                    Order ID ${resultOrder.id}<br/><br/>
                 </p>
                 ${resultOrderDetails.map(y => {
                     suma += y.quantity * y.unitPrice * (1 - y.discount)
                     ukupnaSuma += suma 
                     return `
-                        <p style="font-size: 15px">
-                            ProductId: ${y.productId}<br/><br/>
+                        <p class='price'>
+                            Product Id: ${y.productId}<br/><br/>
                         </p>
-                        <p style="font-size: 15px">
+                        <p class='price'>
                             Quantity: ${y.quantity}<br/><br/>
                         </p>
-                        <p style="font-size: 15px">
+                        <p class='price'>
                             UnitPrice: ${y.unitPrice}<br/><br/>
                         </p>
-                        <p style="font-size: 15px">
+                        <p class='price'>
                             Date: ${konacanDatum.slice(0,10)}<hr/>
                         </p>
-                        <p style="font-size: 15px">
+                        <p class='price'>
                             Amount: ${suma.toFixed(2)}<hr/>
-                        </p>
+                        </p class='price'>
                     `
-                }).join(',')}
+                }).join('')}
                 <p style="font-size: 15px">
                      Total amount: ${ukupnaSuma.toFixed(2)}<br/>
                 </p>
