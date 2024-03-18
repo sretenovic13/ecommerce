@@ -13,12 +13,11 @@ const ordersData = async () => {
 
     for(let i = 0; i < arrayOfOrders.length; i++){
         if(customer == arrayOfOrders[i].order.customerId){
-            console.log('Nasao sam korisnika');
             showOrders(arrayOfOrders[i])
         }
     }
 }
-
+ 
 window.onload = function() {
     ordersData()
 }
