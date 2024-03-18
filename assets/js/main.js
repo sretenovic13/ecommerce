@@ -74,3 +74,26 @@ const showOrders = x => {
         </div>
     `
 }  
+
+const username = sessionStorage.getItem('keyUsername')
+
+$('#logout').text(username)
+
+$('#logout').on({
+    mouseover: function(){
+        $(this).text('Logout')
+        $(this).css({
+            "background": "#e3642a",
+            "color": "white",
+            "border-radius": "10px"
+        })
+    },
+    mouseout: function(){
+        $(this).text(username)
+    },
+    click: function(){
+        sessionStorage.removeItem('keyUsername')
+        sessionStorage.removeItem('keyPassword')
+        location.href = "login.html"
+    }
+})

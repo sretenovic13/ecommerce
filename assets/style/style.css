@@ -209,8 +209,8 @@ nav .active {
 
 .center-block {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .thumbnail.box {
@@ -226,21 +226,21 @@ nav .active {
   color: #ffffff;
 }
 
-p.idOrder {
+.idOrder {
   font-size: 30px;
   color: #e3642a;
   font-weight: bold;
   text-align: center;
 }
 
-p.price {
+.price {
   font-size: 20px;
   color: #ffffff;
   margin-bottom: 5px;
   text-align: center;
 }
 
-.thumbnail.col-md-12.box p.price {
+.thumbnail.col-md-12.box .price {
   font-size: 18px;
   margin-top: 20px;
   font-weight: bold;
@@ -251,7 +251,7 @@ p.price {
   margin: 10px 0;
 }
 
-p.total-price {
+.total-price {
   font-size: 25px;
   color: #009e3e;
   margin-bottom: 5px;
