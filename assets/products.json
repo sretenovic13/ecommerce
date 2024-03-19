@@ -1,0 +1,404 @@
+{
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Games",
+        "product_price": 132987,
+        "product_stock": 3,
+        "product_description": "consequat varius integer ac leo pellentesque ultrices",
+        "product_image": "https://www.ioi.dk/wp-content/uploads/2015/05/Hitman_Contracts-500x500.jpg"
+      },
+      {
+        "product_id": 2,
+        "product_name": "Sports",
+        "product_price": 395624,
+        "product_stock": 2,
+        "product_description": "ac nibh fusce lacus purus aliquet at feugiat non",
+        "product_image": "https://cdn.wallpapersafari.com/48/66/NtYQO4.jpg"
+      },
+      {
+        "product_id": 3,
+        "product_name": "Baby",
+        "product_price": 450214,
+        "product_stock": 13,
+        "product_description": "libero ut massa volutpat convallis morbi odio",
+        "product_image": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/09/16/cottontouch-packshot-886590-1600274431.jpeg?itok=peQgj5Mo"
+      },
+      {
+        "product_id": 4,
+        "product_name": "Movies",
+        "product_price": 355828,
+        "product_stock": 7,
+        "product_description": "donec semper sapien a libero",
+        "product_image": "https://cdn.wallpapersafari.com/6/48/2l9KaL.jpg"
+      },
+      {
+        "product_id": 5,
+        "product_name": "Music",
+        "product_price": 412620,
+        "product_stock": 10,
+        "product_description": "est lacinia nisi venenatis tristique fusce congue diam",
+        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg"
+      },
+      {
+        "product_id": 6,
+        "product_name": "Tools",
+        "product_price": 264423,
+        "product_stock": 19,
+        "product_description": "diam in magna bibendum imperdiet nullam orci pede",
+        "product_image": "https://5.imimg.com/data5/DT/RV/SN/SELLER-10700541/power-tools-collections-500x500-jpg-500x500.jpg"
+      },
+      {
+        "product_id": 7,
+        "product_name": "Shoes",
+        "product_price": 250888,
+        "product_stock": 12,
+        "product_description": "eget nunc donec quis orci",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 8,
+        "product_name": "Clothing",
+        "product_price": 153699,
+        "product_stock": 11,
+        "product_description": "elit proin interdum mauris non ligula pellentesque ultrices phasellus id",
+        "product_image": "https://fashionfusion.telekom.com/wp-content/uploads/2020/07/Christopher_Puttins_Telekom_FashionFusion_0275.jpg"
+      },
+      {
+        "product_id": 9,
+        "product_name": "Books",
+        "product_price": 200002,
+        "product_stock": 14,
+        "product_description": "felis sed interdum venenatis turpis enim blandit mi in porttitor",
+        "product_image": "https://m.media-amazon.com/images/I/6189aX8TxYL.jpg"
+      },
+      {
+        "product_id": 10,
+        "product_name": "Grocery",
+        "product_price": 420332,
+        "product_stock": 18,
+        "product_description": "faucibus cursus urna ut tellus nulla ut erat",
+        "product_image": "https://images.squarespace-cdn.com/content/v1/56d467ca044262887e784bd4/1626958218190-H96IHCLOJNBK27R9BEQ6/online-grocery-5.jpg?format=500w"
+      },
+      {
+        "product_id": 11,
+        "product_name": "Beauty",
+        "product_price": 299534,
+        "product_stock": 3,
+        "product_description": "consequat nulla nisl nunc nisl duis bibendum felis sed interdum",
+        "product_image": "https://cdn.shopify.com/s/files/1/0018/5997/7334/files/MothersDay-Mascara-500x500-min_800x.jpg?v=1646298646"
+      },
+      {
+        "product_id": 12,
+        "product_name": "Music",
+        "product_price": 324919,
+        "product_stock": 18,
+        "product_description": "auctor gravida sem praesent id",
+        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg"
+      },
+      {
+        "product_id": 13,
+        "product_name": "Games",
+        "product_price": 372090,
+        "product_stock": 14,
+        "product_description": "justo morbi ut odio cras mi pede malesuada in imperdiet",
+        "product_image": "https://www.ioi.dk/wp-content/uploads/2015/05/Hitman_Contracts-500x500.jpg"
+      },
+      {
+        "product_id": 14,
+        "product_name": "Music",
+        "product_price": 149557,
+        "product_stock": 7,
+        "product_description": "sit amet cursus id turpis integer aliquet massa id lobortis",
+        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg"
+      },
+      {
+        "product_id": 15,
+        "product_name": "Games",
+        "product_price": 341325,
+        "product_stock": 14,
+        "product_description": "massa tempor convallis nulla neque libero convallis eget eleifend luctus",
+        "product_image": "https://www.ioi.dk/wp-content/uploads/2015/05/Hitman_Contracts-500x500.jpg"
+      },
+      {
+        "product_id": 16,
+        "product_name": "Industrial",
+        "product_price": 411721,
+        "product_stock": 1,
+        "product_description": "elementum nullam varius nulla facilisi cras non velit nec nisi",
+        "product_image": "https://d3fkpfjtsbc1o1.cloudfront.net/images/default-source/default-album/service126678b8878656e40a3ccff00003019ae.tmb-productth.jpg?sfvrsn=a102e566_1"
+      },
+      {
+        "product_id": 17,
+        "product_name": "Toys",
+        "product_price": 116035,
+        "product_stock": 4,
+        "product_description": "aliquam quis turpis eget elit sodales",
+        "product_image": "https://50.cdn.ekm.net/ekmps/shops/podcmedia/images/glow-in-dark-dinosaur-set-101715-p.jpg?v=1"
+      },
+      {
+        "product_id": 18,
+        "product_name": "Jewelery",
+        "product_price": 369016,
+        "product_stock": 10,
+        "product_description": "morbi porttitor lorem id ligula suspendisse ornare consequat lectus in",
+        "product_image": "https://racinejewels.com/wp-content/uploads/2021/02/Kashmir-Ring-black-bg-500x500.jpg"
+      },
+      {
+        "product_id": 19,
+        "product_name": "Music",
+        "product_price": 123465,
+        "product_stock": 18,
+        "product_description": "at feugiat non pretium quis",
+        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg"
+      },
+      {
+        "product_id": 20,
+        "product_name": "Kids",
+        "product_price": 448172,
+        "product_stock": 3,
+        "product_description": "scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis",
+        "product_image": "https://image.made-in-china.com/2f0j00nOMtjzEKZUkH/Nice-Design-MDF-Names-Kids-Clothing-Stores-Wholesale.jpg"
+      },
+      {
+        "product_id": 21,
+        "product_name": "Games",
+        "product_price": 410069,
+        "product_stock": 12,
+        "product_description": "nec nisi volutpat eleifend donec ut dolor morbi",
+        "product_image": "https://www.ioi.dk/wp-content/uploads/2015/05/Hitman_Contracts-500x500.jpg"
+      },
+      {
+        "product_id": 22,
+        "product_name": "Computers",
+        "product_price": 245118,
+        "product_stock": 5,
+        "product_description": "rhoncus dui vel sem sed sagittis",
+        "product_image": "https://cdn.shopify.com/s/files/1/0508/3906/0656/files/picopcsb_1600x.jpg?v=1630589638"
+      },
+      {
+        "product_id": 23,
+        "product_name": "Shoes",
+        "product_price": 238809,
+        "product_stock": 17,
+        "product_description": "faucibus orci luctus et ultrices",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 24,
+        "product_name": "Shoes",
+        "product_price": 330104,
+        "product_stock": 1,
+        "product_description": "sit amet sem fusce consequat nulla nisl",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 25,
+        "product_name": "Tools",
+        "product_price": 101418,
+        "product_stock": 10,
+        "product_description": "curae nulla dapibus dolor vel est donec odio",
+        "product_image": "https://5.imimg.com/data5/DT/RV/SN/SELLER-10700541/power-tools-collections-500x500-jpg-500x500.jpg"
+      },
+      {
+        "product_id": 26,
+        "product_name": "Jewelery",
+        "product_price": 301717,
+        "product_stock": 3,
+        "product_description": "semper sapien a libero nam dui proin leo odio porttitor",
+        "product_image": "https://racinejewels.com/wp-content/uploads/2021/02/Kashmir-Ring-black-bg-500x500.jpg"
+      },
+      {
+        "product_id": 27,
+        "product_name": "Home",
+        "product_price": 162313,
+        "product_stock": 19,
+        "product_description": "rutrum rutrum neque aenean auctor gravida",
+        "product_image": "https://kodiakpropertymanagement.ca/wp-content/uploads/2019/06/Single-Home-Picture-500x500.jpg"
+      },
+      {
+        "product_id": 28,
+        "product_name": "Baby",
+        "product_price": 239327,
+        "product_stock": 0,
+        "product_description": "posuere nonummy integer non velit donec diam neque",
+        "product_image": "https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/articleimages/2020/09/16/cottontouch-packshot-886590-1600274431.jpeg?itok=peQgj5Mo"
+      },
+      {
+        "product_id": 29,
+        "product_name": "Kids",
+        "product_price": 288945,
+        "product_stock": 1,
+        "product_description": "elit ac nulla sed vel enim sit amet nunc viverra",
+        "product_image": "https://image.made-in-china.com/2f0j00nOMtjzEKZUkH/Nice-Design-MDF-Names-Kids-Clothing-Stores-Wholesale.jpg"
+      },
+      {
+        "product_id": 30,
+        "product_name": "Electronics",
+        "product_price": 371315,
+        "product_stock": 4,
+        "product_description": "dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum",
+        "product_image": "https://img.archiexpo.com/images_ae/photo-mg/125975-15350210.jpg"
+      },
+      {
+        "product_id": 31,
+        "product_name": "Industrial",
+        "product_price": 283766,
+        "product_stock": 13,
+        "product_description": "fusce congue diam id ornare imperdiet sapien",
+        "product_image": "https://d3fkpfjtsbc1o1.cloudfront.net/images/default-source/default-album/service126678b8878656e40a3ccff00003019ae.tmb-productth.jpg?sfvrsn=a102e566_1"
+      },
+      {
+        "product_id": 32,
+        "product_name": "Shoes",
+        "product_price": 388733,
+        "product_stock": 11,
+        "product_description": "consequat in consequat ut nulla",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 33,
+        "product_name": "Clothing",
+        "product_price": 416877,
+        "product_stock": 13,
+        "product_description": "sed tristique in tempus sit",
+        "product_image": "https://fashionfusion.telekom.com/wp-content/uploads/2020/07/Christopher_Puttins_Telekom_FashionFusion_0275.jpg"
+      },
+      {
+        "product_id": 34,
+        "product_name": "Sports",
+        "product_price": 278830,
+        "product_stock": 4,
+        "product_description": "pretium quis lectus suspendisse potenti",
+        "product_image": "https://cdn.wallpapersafari.com/48/66/NtYQO4.jpg"
+      },
+      {
+        "product_id": 35,
+        "product_name": "Garden",
+        "product_price": 341074,
+        "product_stock": 3,
+        "product_description": "sem fusce consequat nulla nisl nunc nisl duis bibendum felis",
+        "product_image": "https://i.pinimg.com/originals/2b/be/9f/2bbe9f2ba4f0df4e761e70fd6dc23015.jpg"
+      },
+      {
+        "product_id": 36,
+        "product_name": "Grocery",
+        "product_price": 139540,
+        "product_stock": 7,
+        "product_description": "congue etiam justo etiam pretium iaculis justo in hac habitasse",
+        "product_image": "https://images.squarespace-cdn.com/content/v1/56d467ca044262887e784bd4/1626958218190-H96IHCLOJNBK27R9BEQ6/online-grocery-5.jpg?format=500w"
+      },
+      {
+        "product_id": 37,
+        "product_name": "Automotive",
+        "product_price": 447046,
+        "product_stock": 15,
+        "product_description": "convallis nunc proin at turpis a",
+        "product_image": "https://warsawexpo.eu/wp-content/uploads/2019/08/automotiv-kafelek.jpg"
+      },
+      {
+        "product_id": 38,
+        "product_name": "Grocery",
+        "product_price": 374868,
+        "product_stock": 0,
+        "product_description": "dapibus at diam nam tristique tortor",
+        "product_image": "https://images.squarespace-cdn.com/content/v1/56d467ca044262887e784bd4/1626958218190-H96IHCLOJNBK27R9BEQ6/online-grocery-5.jpg?format=500w"
+      },
+      {
+        "product_id": 39,
+        "product_name": "Shoes",
+        "product_price": 449712,
+        "product_stock": 18,
+        "product_description": "lorem quisque ut erat curabitur",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 40,
+        "product_name": "Outdoors",
+        "product_price": 237957,
+        "product_stock": 11,
+        "product_description": "ut at dolor quis odio consequat",
+        "product_image": "http://dummyimage.com/500x500.png/ff4444/ffffff"
+      },
+      {
+        "product_id": 41,
+        "product_name": "Industrial",
+        "product_price": 431324,
+        "product_stock": 6,
+        "product_description": "ultrices phasellus id sapien in sapien iaculis congue vivamus metus",
+        "product_image": "https://d3fkpfjtsbc1o1.cloudfront.net/images/default-source/default-album/service126678b8878656e40a3ccff00003019ae.tmb-productth.jpg?sfvrsn=a102e566_1"
+      },
+      {
+        "product_id": 42,
+        "product_name": "Movies",
+        "product_price": 403424,
+        "product_stock": 10,
+        "product_description": "proin risus praesent lectus vestibulum quam",
+        "product_image": "https://cdn.wallpapersafari.com/6/48/2l9KaL.jpg"
+      },
+      {
+        "product_id": 43,
+        "product_name": "Books",
+        "product_price": 101113,
+        "product_stock": 7,
+        "product_description": "montes nascetur ridiculus mus etiam vel augue",
+        "product_image": "https://m.media-amazon.com/images/I/6189aX8TxYL.jpg"
+      },
+      {
+        "product_id": 44,
+        "product_name": "Garden",
+        "product_price": 428773,
+        "product_stock": 11,
+        "product_description": "felis ut at dolor quis odio consequat varius integer ac",
+        "product_image": "https://i.pinimg.com/originals/2b/be/9f/2bbe9f2ba4f0df4e761e70fd6dc23015.jpg"
+      },
+      {
+        "product_id": 45,
+        "product_name": "Shoes",
+        "product_price": 108548,
+        "product_stock": 11,
+        "product_description": "amet eros suspendisse accumsan tortor quis turpis sed",
+        "product_image": "https://lotto.expressleather.com.bd/wp-content/uploads/2022/02/Mirage-300-Sports-Shoe-FB-Post.jpg"
+      },
+      {
+        "product_id": 46,
+        "product_name": "Tools",
+        "product_price": 296598,
+        "product_stock": 6,
+        "product_description": "tempus sit amet sem fusce consequat nulla",
+        "product_image": "https://5.imimg.com/data5/DT/RV/SN/SELLER-10700541/power-tools-collections-500x500-jpg-500x500.jpg"
+      },
+      {
+        "product_id": 47,
+        "product_name": "Health",
+        "product_price": 217132,
+        "product_stock": 7,
+        "product_description": "vestibulum vestibulum ante ipsum primis in faucibus",
+        "product_image": "https://d1lcxmvfg81jez.cloudfront.net/gallery/rye-health-store-front-1024x756-1547729077.jpg"
+      },
+      {
+        "product_id": 48,
+        "product_name": "Kids",
+        "product_price": 458378,
+        "product_stock": 15,
+        "product_description": "quam fringilla rhoncus mauris enim leo rhoncus sed",
+        "product_image": "https://image.made-in-china.com/2f0j00nOMtjzEKZUkH/Nice-Design-MDF-Names-Kids-Clothing-Stores-Wholesale.jpg"
+      },
+      {
+        "product_id": 49,
+        "product_name": "Electronics",
+        "product_price": 201168,
+        "product_stock": 17,
+        "product_description": "est quam pharetra magna ac consequat metus",
+        "product_image": "https://img.archiexpo.com/images_ae/photo-mg/125975-15350210.jpg"
+      },
+      {
+        "product_id": 50,
+        "product_name": "Beauty",
+        "product_price": 280120,
+        "product_stock": 20,
+        "product_description": "pede justo eu massa donec dapibus duis at",
+        "product_image": "https://cdn.shopify.com/s/files/1/0018/5997/7334/files/MothersDay-Mascara-500x500-min_800x.jpg?v=1646298646"
+      }
+    ]
+  }

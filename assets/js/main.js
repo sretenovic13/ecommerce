@@ -90,9 +90,6 @@ $('#logout').on({
     },
     mouseout: function(){
         $(this).text(username)
-        $(this).css({
-            "background": "none",
-        })
     },
     click: function(){
         sessionStorage.removeItem('keyUsername')
