@@ -25,20 +25,32 @@ const productsData = async () => {
     const productsUrl = 'https://mocki.io/v1/c2e7d692-1f0b-4e7c-b98f-ca488f703abc'
      
     const response = await fetch(productsUrl)
-    console.log(response);
     const data = await response.json()
+    console.log(data)
 
     const arrayOfProducts = data.items
-
-    const product = sessionStorage.getItem('product_id')
     
-
-    for(let i = 0; i < arrayOfProducts.length; i++){
-        if(product == arrayOfProducts[i].product_id){
-            showProducts(arrayOfProducts[i])
-        }
-    }
-    console.log(arrayOfProducts);
+    const product = sessionStorage.getItem('product_id')
+    showProducts(arrayOfProducts)
 }
 
-    productsData()
+window.onload = function() {
+    productsData();
+}
+
+
+const showProducts = products => {
+    const productsDiv = document.querySelector('.products-center');
+
+    products.forEach(product => {
+        const productHTML = `
+            <div class="img-container">
+                <img class="product-img" src="${product.product_image}" alt="${product.product_name}">
+                <h3 class="product">${product.product_name}</h3>
+                <h4 class="product">${product.product_price}</h4>
+            </div>
+        `;
+        productsDiv.innerHTML += productHTML;
+        console.log(productHTML)
+    });
+}
