@@ -22,11 +22,10 @@ $('#logout').on({
 })
 
 const productsData = async () => {
-    const productsUrl = 'https://mocki.io/v1/c2e7d692-1f0b-4e7c-b98f-ca488f703abc'
+    const productsUrl = 'https://mocki.io/v1/10d97c21-9e40-4ed7-b8d6-926f53beba48'
      
     const response = await fetch(productsUrl)
     const data = await response.json()
-    console.log(data)
 
     const arrayOfProducts = data.items
     
@@ -51,6 +50,5 @@ const showProducts = products => {
             </div>
         `;
         productsDiv.innerHTML += productHTML;
-        console.log(productHTML)
     });
 }
