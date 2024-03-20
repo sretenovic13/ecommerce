@@ -260,20 +260,22 @@ nav {
   }
   
   
-  .product h3 {
+  .img-container h3 {
     text-transform: capitalize;
     font-size: 1.1rem;
     margin-top: 1rem;
     letter-spacing: var(--mainSpacing);
     text-align: center;
+    color: #ffffff;
   }
   
   
-  .product h4 {
+  .img-container h4 {
     margin-top: 0.7rem;
     letter-spacing: var(--mainSpacing);
-    color: var(--primaryColor);
+    color: #009e3e;
     text-align: center;
+  
   }
   
   /* --------------- Cart ---------------- */

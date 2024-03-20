@@ -46,8 +46,8 @@ const showProducts = products => {
         const productHTML = `
             <div class="img-container">
                 <img class="product-img" src="${product.product_image}" alt="${product.product_name}">
-                <h3 class="product">${product.product_name}</h3>
-                <h4 class="product">${product.product_price}</h4>
+                <h3>${product.product_name}</h3>
+                <h4>$${product.product_price}</h4>
             </div>
         `;
         productsDiv.innerHTML += productHTML;
