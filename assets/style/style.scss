@@ -344,9 +344,9 @@ nav {
     margin: 1.5rem 0;
   }
   
-  .cart-item img {
-    width: 75px;
-    height: 75px;
+  .cart-item>img {
+    width: 200px;
+    height: 100px;
   }
 
   .cart-item h4 {
