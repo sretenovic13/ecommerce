@@ -160,7 +160,7 @@ class UI {
                 let addAmount = event.target
                 let id = addAmount.dataset.id
                 let tempItem = cart.find(item => item.product_id.toString() === id)
-                tempItem.amount++
+                tempItem.amount = tempItem.amount + 1
                 Storage.saveCart(cart)
                 this.setCartValues(cart)
                 addAmount.nextElementSibling.innerText = tempItem.amount
@@ -175,7 +175,7 @@ class UI {
                     this.setCartValues(cart)
                     lowerAmount.previousElementSibling.innerText = tempItem.amount
                 } else{
-                    cartContent.removeChild(removeItem.parentElement.parentElement)
+                    cartContent.removeChild(lowerAmount.parentElement.parentElement)
                     this.removeItem(id)
                 }
             }
