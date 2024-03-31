@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* --------------- Registration, SignIn ---------------- */
 #registerBody {
   background: linear-gradient(to right, #392d47, #4687f6);
   height: 100vh;
@@ -105,6 +106,7 @@
   color: #e3642a;
 }
 
+/* --------------- Index ---------------- */
 nav {
   background: linear-gradient(to right, #392d47, #4687f6);
 }
@@ -112,7 +114,7 @@ nav .nav-link {
   color: #fff !important;
 }
 nav .active {
-  color: #332d2d !important;
+  color: #fff !important;
 }
 
 .navbar-nav {
@@ -182,6 +184,7 @@ nav .active {
   font-family: "Madimi One", sans-serif;
 }
 
+/* --------------- Products ---------------- */
 .cart-btn {
   position: relative;
   cursor: pointer;
@@ -202,13 +205,22 @@ nav .active {
 }
 
 .section-title h2 {
-  text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 5rem;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+  color: #f8f9fa;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
   font-family: "Madimi One", sans-serif;
-  color: #e3642a;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background-color: #eb7c0e;
+  bottom: -20px;
+  left: calc(50% - 50px);
 }
 
 .products-center {
@@ -259,26 +271,55 @@ nav .active {
   height: 274.5px;
   min-height: 12rem;
   transition: var(--mainTransition);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.img-container:hover .product-img {
-  opacity: 0.5;
+.product {
+  background-image: linear-gradient(to right, #0056b3, #ff7f00);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: #fff;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .product h3 {
   text-transform: capitalize;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
-  letter-spacing: var(--mainSpacing);
+  letter-spacing: 1px;
   text-align: center;
-  color: #ffffff;
+  color: #ddd;
+  font-family: "Madimi One", sans-serif;
 }
 
 .product h4 {
   margin-top: 0.7rem;
-  letter-spacing: var(--mainSpacing);
-  color: #009e3e;
+  letter-spacing: 1px;
+  color: #fff;
   text-align: center;
+}
+
+.add-to-cart-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s;
+}
+
+.img-container:hover .product-img {
+  opacity: 0.5;
 }
 
 /* --------------- Cart ---------------- */

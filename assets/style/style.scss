@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-// registration, signin
+ /* --------------- Registration, SignIn ---------------- */
 
 #registerBody{
     background: linear-gradient(to right, $primary,$secondary);
@@ -107,8 +107,7 @@
 .head{
     color: #e3642a;
 }
-// index
-
+ /* --------------- Index ---------------- */
 nav {
     background: linear-gradient(to right, $primary,$secondary);
 
@@ -116,7 +115,7 @@ nav {
         color: #fff !important;
     }
     .active {
-        color: #332d2d !important;
+        color: #fff !important;
     }
 }
 
@@ -179,7 +178,7 @@ nav {
     font-family: "Madimi One", sans-serif;
 }
 
-// products 
+ /* --------------- Products ---------------- */
 
 .cart-btn {
     position: relative;
@@ -199,14 +198,24 @@ nav {
     padding: 4rem 0;
 }
 .section-title h2 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 5rem;
-    text-transform: capitalize;
-    letter-spacing: var(--mainSpacing);
-    font-family: "Madimi One", sans-serif;
-    color: #e3642a;
+  font-size: 2.5rem; 
+  color: #f8f9fa; 
+  text-align: center; 
+  margin-bottom: 50px; 
+  position: relative;
+  font-family: "Madimi One", sans-serif;
 }
+
+.section-title h2::before {
+  content: ''; 
+  position: absolute; 
+  width: 100px; 
+  height: 2px; 
+  background-color: #eb7c0e; 
+  bottom: -20px; 
+  left: calc(50% - 50px); 
+}
+
 .products-center{
     width: 90vw;
     margin: 0 auto;
@@ -254,29 +263,54 @@ nav {
     height: 274.5px;
     min-height: 12rem;
     transition: var(--mainTransition);
+    object-fit: cover;
   }
   
+ .product {
+  background-image: linear-gradient(to right, #0056b3, #ff7f00); 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  color: #fff; 
+}
+
+.product:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.product h3 {
+  text-transform: capitalize; 
+  font-size: 1.5rem; 
+  margin-top: 1rem; 
+  letter-spacing: 1px; 
+  text-align: center; 
+  color: #ddd; 
+  font-family: "Madimi One", sans-serif;
+}
+
+.product h4 {
+  margin-top: 0.7rem; 
+  letter-spacing: 1px;
+  color: #fff; 
+  text-align: center; 
+}
+
+.add-to-cart-btn {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  display: block; 
+  margin: 0 auto; 
+  transition: background-color 0.3s; 
+}
+
   .img-container:hover .product-img {
     opacity: 0.5;
-  }
-  
-  
-  .product h3 {
-    text-transform: capitalize;
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    letter-spacing: var(--mainSpacing);
-    text-align: center;
-    color: #ffffff;
-  }
-  
-  
-  .product h4 {
-    margin-top: 0.7rem;
-    letter-spacing: var(--mainSpacing);
-    color: #009e3e;
-    text-align: center;
-  
   }
   
   /* --------------- Cart ---------------- */

@@ -181,6 +181,9 @@ class UI {
             }
         })
     }
+    clearCart(){
+        
+    }
 }
 
 class Storage{
