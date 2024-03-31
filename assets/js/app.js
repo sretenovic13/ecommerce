@@ -181,8 +181,26 @@ class UI {
             }
         })
     }
-    clearCart(){
-        
+    clearCart() {
+        let cartItems = cart.map(item => item.product_id.toString());
+        cartItems.forEach(id => this.removeItem(id));
+
+
+        while(cartContent.children.length > 0) {
+            cartContent.removeChild(cartContent.children[0])
+        }
+        this.hideCart();
+    }
+    removeItem(id) {
+        cart = cart.filter(item => item.product_id.toString() !== id);
+        this.setCartValues(cart);
+        Storage.saveCart(cart)
+        let button = this.getSingleButton(id);
+        button.disabled = false;
+        button.innerHTML = `<i class="fas fa-shopping-cart"></i>Add to cart`;
+    }
+    getSingleButton(id) {
+        return buttonsDOM.find(button => button.dataset.id === id);
     }
 }
 
