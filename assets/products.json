@@ -6,7 +6,12 @@
         "product_price": 132987,
         "product_stock": 3,
         "product_description": "consequat varius integer ac leo pellentesque ultrices",
-        "product_image": "https://www.dictionary.com/e/wp-content/uploads/2018/07/CS-GO3.jpg"
+        "product_image": "https://www.dictionary.com/e/wp-content/uploads/2018/07/CS-GO3.jpg",
+        "product_gallery": {
+          "image1": "https://assets.rockpapershotgun.com/images/11/aug/csgo2.jpg",
+          "image2": "https://www.desktopbackground.org/download/1280x900/2011/03/20/174985_gallery-for-counter-source-strike-wallpapers_1680x1050_h.jpg",
+          "image3": "https://images.gamebanana.com/img/ss/mods/5a66ef4d88fe0.jpg"
+        }
       },
       {
         "product_id": 2,
@@ -14,7 +19,12 @@
         "product_price": 395624,
         "product_stock": 2,
         "product_description": "ac nibh fusce lacus purus aliquet at feugiat non",
-        "product_image": "https://cdn.wallpapersafari.com/48/66/NtYQO4.jpg"
+        "product_image": "https://cdn.wallpapersafari.com/48/66/NtYQO4.jpg",
+        "product_gallery": {
+          "image1":"https://fanbuzz.com/wp-content/uploads/sites/5/2021/11/How-Long-is-a-Basketball-Game-4.png?w=1056" ,
+          "image2":"https://media.istockphoto.com/id/1355087243/photo/american-football-teams-start-game-professional-players-aggressive-face-off-tackle-pass-fight.webp?b=1&s=170667a&w=0&k=20&c=3hVLWQBPW9Hac7KMrxr_EFAuQ5tuGCGlvcefaQ6arwc=" ,
+          "image3":"https://im.rediff.com/sports/2020/dec/07salah.jpg"
+        }
       },
       {
         "product_id": 3,
@@ -22,7 +32,12 @@
         "product_price": 450214,
         "product_stock": 13,
         "product_description": "libero ut massa volutpat convallis morbi odio",
-        "product_image": "https://alexonlineshop.rs/wp-content/uploads/2023/07/beby2.jpg"
+        "product_image": "https://alexonlineshop.rs/wp-content/uploads/2023/07/beby2.jpg",
+        "product_gallery": {
+          "image1":"https://specials-images.forbesimg.com/imageserve/6568e9e7efb40efd0623ef32/VTech-Sit-to-Stand-Learning-Walker--Frustration-Free-Packaging----Orange/960x0.jpg?cropX1=57&cropX2=1017&cropY1=0&cropY2=719" ,
+          "image2":"https://img.kwcdn.com/product/open/2023-07-11/1689083849490-ddbab8cb9eed484a83f4664765fdbde8-goods.jpeg?imageView2/2/w/500/q/60/format/webp" ,
+          "image3":"https://baybee.co.in/cdn/shop/files/61wKwlxoEtL.jpg?v=1687517671"
+        }
       },
       {
         "product_id": 4,
@@ -30,7 +45,12 @@
         "product_price": 355828,
         "product_stock": 7,
         "product_description": "donec semper sapien a libero",
-        "product_image": "https://cdn.wallpapersafari.com/6/48/2l9KaL.jpg"
+        "product_image": "https://cdn.wallpapersafari.com/6/48/2l9KaL.jpg",
+        "product_gallery": {
+          "image1":"https://m.media-amazon.com/images/M/MV5BMGEzZjdjMGQtZmYzZC00N2I4LThiY2QtNWY5ZmQ3M2ExZmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg" ,
+          "image2":"https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/kevin-hart-rock-dwayne-johnson-movies-ranked.jpg" ,
+          "image3":"https://theempiretheatre.com/uploads/2023/09/Empire-Movie-site-Oppenheimer.jpg"
+        }
       },
       {
         "product_id": 5,
@@ -38,7 +58,12 @@
         "product_price": 412620,
         "product_stock": 10,
         "product_description": "est lacinia nisi venenatis tristique fusce congue diam",
-        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg"
+        "product_image": "https://i1.sndcdn.com/avatars-OymfIB1b2Xu2XLba-ztnKdA-t500x500.jpg",
+        "product_gallery": {
+          "image1":"https://media.pitchfork.com/photos/634831ba8ddca99732410639/16:9/w_3200,h_1800,c_limit/Queen.jpg" ,
+          "image2":"https://www.rollingstone.com/wp-content/uploads/2020/01/Bob-Marley-Lead.jpg?w=1581&h=1054&crop=1" ,
+          "image3":"https://www.argusleader.com/gcdn/presto/2019/02/26/PSIF/ccc90a02-e015-4696-9b05-e218c4839bb0-KISS1.jpg"
+        }
       },
       {
         "product_id": 6,
@@ -46,7 +71,12 @@
         "product_price": 264423,
         "product_stock": 19,
         "product_description": "diam in magna bibendum imperdiet nullam orci pede",
-        "product_image": "https://5.imimg.com/data5/DT/RV/SN/SELLER-10700541/power-tools-collections-500x500-jpg-500x500.jpg"
+        "product_image": "https://5.imimg.com/data5/DT/RV/SN/SELLER-10700541/power-tools-collections-500x500-jpg-500x500.jpg",
+        "product_gallery": {
+          "image1":"https://www.gama-alati.rs/media/catalog/product/cache/5a9330d4ec26c35f455b78f30c437f71/b/o/bosch-gsb-21-2-rct-vibraciona-busilica-060119c700.jpg" ,
+          "image2":"https://sbt-alati.rs/cdn/shop/products/Bosch-GSB-18V-EC-aku-busilica-i-srafilica-2x-baterija-18V-50Ahpunjac-kofer-06019E9120_1200x1200.jpg?v=1664861362" ,
+          "image3":"https://www.gama-alati.rs/media/catalog/product/cache/5a9330d4ec26c35f455b78f30c437f71/u/g/ugaona-brusilica-velika-bosch-gws-2200-230-06018c1320.jpg"
+        }
       },
       {
         "product_id": 7,
@@ -54,7 +84,12 @@
         "product_price": 250888,
         "product_stock": 12,
         "product_description": "eget nunc donec quis orci",
-        "product_image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b859159c-82ec-4c04-bc15-b4d74cce7a0c/dunk-low-premium-womens-shoes-W1tXD6.png"
+        "product_image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/b859159c-82ec-4c04-bc15-b4d74cce7a0c/dunk-low-premium-womens-shoes-W1tXD6.png",
+        "product_gallery": {
+          "image1":"https://img.buzzfeed.com/buzzfeed-static/complex/images/Y19jcm9wLGhfMTEyNSx3XzIwMDAseF8wLHlfNTMw/evuim8np8i8ish6ilvry/air-jordan-1-retro-high-og-satin-555088-060-pair.jpg?output-format=jpg&output-quality=auto" ,
+          "image2":"https://www.tike.rs/files/watermark/files/images/products/media/DA1/DA1469-200/images/thumbs_w/DA1469-200_w_800_800px.jpg.webp" ,
+          "image3":"https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/bd1d9e56-8b02-4989-bfc7-649d29097d81/pg-5-daughters-release-date.jpg"
+        }
       },
       {
         "product_id": 8,
@@ -62,7 +97,12 @@
         "product_price": 153699,
         "product_stock": 11,
         "product_description": "elit proin interdum mauris non ligula pellentesque ultrices phasellus id",
-        "product_image": "https://fashionfusion.telekom.com/wp-content/uploads/2020/07/Christopher_Puttins_Telekom_FashionFusion_0275.jpg"
+        "product_image": "https://fashionfusion.telekom.com/wp-content/uploads/2020/07/Christopher_Puttins_Telekom_FashionFusion_0275.jpg",
+        "product_gallery": {
+          "image1":"https://srbijaprint.rs/wp-content/uploads/2021/09/PSG-Jordan-Duks-Sa-Kapuljacom-Teget.jpg" ,
+          "image2":"https://retrodresovi90.com/cdn/shop/products/Doncic5_900x.jpg?v=1647357977" ,
+          "image3":"https://dynamic.zacdn.com/RGeQa7aWhBk51ZcgudupIci9rPs=/filters:quality(70):format(webp)/https://static-sg.zacdn.com/p/nike-2823-6338923-1.jpg"
+        }
       },
       {
         "product_id": 9,

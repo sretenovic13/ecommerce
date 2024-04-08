@@ -8,29 +8,6 @@ const cartTotal = document.querySelector('.cart-total')
 const cartContent = document.querySelector('.cart-content')
 const productsDOM = document.querySelector('.products-center')
 
-const username = sessionStorage.getItem('keyUsername')
-
-$('#logout').text(username)
-
-$('#logout').on({
-    mouseover: function(){
-        $(this).text('Logout')
-        $(this).css({
-            "background": "#e3642a",
-            "color": "white",
-            "border-radius": "10px"
-        })
-    },
-    mouseout: function(){
-        $(this).text(username)
-    },
-    click: function(){
-        sessionStorage.removeItem('keyUsername')
-        sessionStorage.removeItem('keyPassword')
-        location.href = "login.html"
-    }
-})
-
 
 let cart = []
 let buttonsDOM = []
@@ -60,14 +37,18 @@ class UI {
             result += `
             <article class="product">
                 <div class="img-container">
-                    <img class="product-img" src="${product.product_image}" alt="${product.product_name}">
+                    <a href="product_details.html?id=${product.product_id}">
+                        <img class="product-img" src="${product.product_image}" alt="${product.product_name}">
+                    </a>
                     <button class="bag-btn" data-id="${product.product_id}">
                         <i class="fas fa-shopping-cart"></i>
                         Add to cart
                     </button>
                 </div>
-                <h3>${product.product_name}</h3>
-                <h4>$${product.product_price}</h4>
+                    <a href="product_details.html?id=${product.product_id}">
+                        <h3>${product.product_name}</h3>
+                        <h4>$${product.product_price}</h4>
+                    </a>
             </article>
             `
         })
@@ -236,4 +217,27 @@ document.addEventListener('DOMContentLoaded', () => {
         ui.cartLogic()
     })
     
+})
+
+const username = sessionStorage.getItem('keyUsername')
+
+$('#logout').text(username)
+
+$('#logout').on({
+    mouseover: function(){
+        $(this).text('Logout')
+        $(this).css({
+            "background": "#e3642a",
+            "color": "white",
+            "border-radius": "10px"
+        })
+    },
+    mouseout: function(){
+        $(this).text(username)
+    },
+    click: function(){
+        sessionStorage.removeItem('keyUsername')
+        sessionStorage.removeItem('keyPassword')
+        location.href = "login.html"
+    }
 })

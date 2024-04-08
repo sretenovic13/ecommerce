@@ -425,3 +425,42 @@ nav {
   .body {
     background: linear-gradient(to right, $primary,$secondary);
   }
+
+  .product a {
+    text-decoration: none;
+  }
+
+  .product-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-product {
+    margin: 20px auto 0 30px;
+    width: 50%; 
+}
+
+  .product-gallery{
+    margin-left: 200px;
+  }
+  .product-gallery img{
+    height: 400px;
+    width: 400px;
+    margin: 20px 15px 0 15px;
+  }
+
+  .product-image img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+  }
+
+  .price2 {
+    color: #ddd;
+    font-size: 40px;
+  }
+
+  .description{
+    color: #ddd;
+    font-size: 20px;
+  }
