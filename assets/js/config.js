@@ -1,4 +1,4 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-app.js"
 
 const firebaseConfig = {
   apiKey: "AIzaSyC5XUauhY1VzE5WdQxOLPaMMzYjMmQXds8",
@@ -11,6 +11,6 @@ const firebaseConfig = {
   databaseURL: "https://ecommerce-1189c-default-rtdb.europe-west1.firebasedatabase.app"
 };
 
-const app = initializeApp(firebaseConfig);
+const app = initializeApp(firebaseConfig)
 
 export default app;

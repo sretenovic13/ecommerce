@@ -1,0 +1,108 @@
+{
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Air Jordan 1 Low",
+        "product_price": 135,
+        "product_stock": 3,
+        "product_description": "Inspired by the original that debuted in 1985, the Air Jordan 1 Low offers a clean, classic look that's familiar yet always fresh. With an iconic design that pairs perfectly with any 'fit, these kicks ensure you'll always be on point.",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/525eacce-5bfe-48b5-b6de-4ce71c6ba657/air-jordan-1-low-shoes-cvkxTg.png",
+        "product_gallery": {
+          "image1": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a48f0a03-6639-4452-bf10-3c362182adbd/air-jordan-1-low-shoes-cvkxTg.png",
+          "image2": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/11ed99b7-0486-4fee-bdf5-78dffda009b6/air-jordan-1-low-shoes-cvkxTg.png",
+          "image3": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5e96005e-1c7e-4176-868b-58b6dfc8ebc1/air-jordan-1-low-shoes-cvkxTg.png"
+        }
+      },
+      {
+        "product_id": 2,
+        "product_name": "Air Force 1 Coconut Milk",
+        "product_price": 175,
+        "product_stock": 2,
+        "product_description": "Time for a snack. This AF-1 is tastier than ever, covered in Coconut Milk from top to bottom. Elegant layers of the creamy neutral make a subtle statement atop the plush, Nike Air-cushioned midsole. Inside, perforated insoles (matching the signature perfs on the toe top) add a breezy feel your feet will love.",
+        "product_image": "https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/ffd1fda2-bbbc-48a8-bd29-913a7be5cc09/air-force-1-07-coconut-milk-dm0211-101-release-date.jpg",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_prod_sc/w_640,c_limit,f_auto/cc25e6b1-83c3-4109-a979-b4d57e282214/air-force-1-07-coconut-milk-dm0211-101-release-date.jpg" ,
+          "image2":"https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/956102de-72cf-4c3f-9855-d26d83474f0f/air-force-1-07-coconut-milk-dm0211-101-release-date.jpg" ,
+          "image3":"https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/f45ba25c-7f95-4563-9724-5a4f995b32cc/air-force-1-07-coconut-milk-dm0211-101-release-date.jpg"
+        }
+      },
+      {
+        "product_id": 3,
+        "product_name": "Air Jordan 1 Mid",
+        "product_price": 149,
+        "product_stock": 13,
+        "product_description": "Inspired by the original AJ1, this mid-top edition maintains the iconic look you love while choice colours and crisp leather give it a distinct identity.",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4f864b95-0da2-4f66-b1c7-2cfb6e655bc6/air-jordan-1-mid-shoes-lQ6McN.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/05204412-868d-40c4-b800-7acbe948a2c0/air-jordan-1-mid-shoes-lQ6McN.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b497aee0-09c5-413e-9f79-df4d2ed999c3/air-jordan-1-mid-shoes-lQ6McN.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cc7c531a-5ed2-4cb8-8446-f86a2f52fb56/air-jordan-1-mid-shoes-lQ6McN.png"
+        }
+      },
+      {
+        "product_id": 4,
+        "product_name": "JA 1 ASW",
+        "product_price": 155,
+        "product_stock": 7,
+        "product_description": "Ja Morant became the superstar he is today by repeatedly sinking jumpers on crooked rims, jumping on tractor tyres and dribbling through traffic cones in steamy South Carolina summers.",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2031d414-11ca-4e94-9bc1-6db0babf151a/ja-1-asw-basketball-shoes-K505nl.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/2ea0aa89-d331-4e52-8ebd-1ab335a1a507/ja-1-asw-basketball-shoes-K505nl.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a25399d0-56b2-4dda-8664-e55aa2ee8594/ja-1-asw-basketball-shoes-K505nl.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/9d04e2bd-3530-4e9e-a0c3-0b59cf438e11/ja-1-asw-basketball-shoes-K505nl.png"
+        }
+      },
+      {
+        "product_id": 5,
+        "product_name": "Nike Dunk Low Retro",
+        "product_price": 129,
+        "product_stock": 10,
+        "product_description": "The '80s basketball icon returns with classic details and throwback hoops flair. Channelling vintage style back onto the streets, its padded, low-cut collar lets you take your game anywhere—in comfort.",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7705ff86-6a09-480f-88cb-a4bedbcb8c14/dunk-low-retro-shoes-Zv8mlM.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/f1546a41-4a0a-4167-bc9b-8d527ae75334/dunk-low-retro-shoes-Zv8mlM.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a88488fa-5c9a-47dc-b4c8-50e1ef4eda6e/dunk-low-retro-shoes-Zv8mlM.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/071cc510-9491-4041-bcbb-acc4322eff93/dunk-low-retro-shoes-Zv8mlM.png"
+        }
+      },
+      {
+        "product_id": 6,
+        "product_name": "Giannis Freak 5",
+        "product_price": 96,
+        "product_stock": 19,
+        "product_description": "Giannis's internal engine revs from deep within, requiring a shoe that can harness his superpower abilities. Enter the Giannis Freak 5. Stacked with stunning speed for super-quick first steps, stuffed with that sort of springy cushioning that can withstand the all-game grind, his signature shoe lets you feel like the Greek Freak.",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/71a809bd-b5a1-4b48-b1e3-8fdec439be82/giannis-freak-5-basketball-shoes-zc8g4R.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a338a604-8885-4d02-8679-146f6c497007/giannis-freak-5-basketball-shoes-zc8g4R.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b1202deb-aa4b-419b-b0db-2ec200aeec71/giannis-freak-5-basketball-shoes-zc8g4R.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/3acb32eb-3f17-4396-a27b-9d37429554d7/giannis-freak-5-basketball-shoes-zc8g4R.png"
+        }
+      },
+      {
+        "product_id": 7,
+        "product_name": "Air Jordan I High G",
+        "product_price": 199,
+        "product_stock": 12,
+        "product_description": "Feel unbeatable, from the tee box to the final putt. Inspired by one of the most iconic sneakers of all time, the Air Jordan 1 G is an instant classic on the course. With Air cushioning underfoot, a Wings logo on the heel and an integrated traction pattern to help you power through your swing",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/211d4d31-22dc-4792-aafd-70a6d32a4fdf/air-jordan-i-high-g-golf-shoes-F7glQR.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1bd856c6-573f-47e0-ab29-88988fe8da62/air-jordan-i-high-g-golf-shoes-F7glQR.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/41fdbae1-2e65-456a-9388-fa08733c5eeb/air-jordan-i-high-g-golf-shoes-F7glQR.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4b5c469-e367-434c-825d-a28c507e1367/air-jordan-i-high-g-golf-shoes-F7glQR.png"
+        }
+      },
+      {
+        "product_id": 8,
+        "product_name": "Nike SB Dunk High Pro",
+        "product_price": 169,
+        "product_stock": 11,
+        "product_description": "All Love, No Hate in this collaboration with froSkate. The tongue graphics, heart-shaped perforations and All Love embossed on the sides remind you that everyone is welcome in the skating community. ",
+        "product_image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7e0891ce-33f0-48f4-a8c5-01561edb5f2c/sb-dunk-high-pro-skate-shoes-jkKcJ5.png",
+        "product_gallery": {
+          "image1":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/bd19efa4-b4fe-42e8-8f5c-32b49bc39d76/sb-dunk-high-pro-skate-shoes-jkKcJ5.png" ,
+          "image2":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/96f06947-2473-43b8-9519-325124f1e191/sb-dunk-high-pro-skate-shoes-jkKcJ5.png" ,
+          "image3":"https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/afd6d1dd-deaf-47a5-a38f-a82589cc1fbc/sb-dunk-high-pro-skate-shoes-jkKcJ5.png"
+        }
+      }
+    ]
+}

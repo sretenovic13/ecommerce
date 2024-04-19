@@ -15,7 +15,7 @@ let buttonsDOM = []
 class Products {
     async getProducts(){
         try{
-            const result = await fetch('https://apis.nervesys.com/api/566aa5c8-9adb-49fc-84d0-71c6752d0312')
+            const result = await fetch('https://apis.nervesys.com/api/de3333b1-fcb1-4dfb-a606-7e813249790e')
             const data = await result.json()
             let products = data.items
             products = products.map(item => {
